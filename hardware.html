@@ -1,0 +1,158 @@
+<html><head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<script type="text/javascript">
+			/*try
+			{
+				(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init('5972fbd13c8a5d4c7ee992407bd26763');
+			}
+			catch( e )
+			{
+			}*/
+		</script>
+
+		
+		<title>Hardware at PennApps</title>
+		<meta name="google-site-verification" content="">
+		
+		<meta name="robots" content="index,follow">
+		
+		
+				<meta property="og:title" content="Hardware at PennApps">
+		<meta property="og:description" content="Hardware at PennApps">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Hardware at PennApps">
+
+		
+		
+		
+		<!--[if IE 6]>
+		<link type="text/css" rel="stylesheet" media="screen, print" href="http://instapage-static-v25.s3.amazonaws.com/css-ie6-main-380-jmin.css.jgz" />
+		<![endif]-->
+
+		<!--[if IE 7]>
+		<link type="text/css" rel="stylesheet" media="screen, print" href="http://instapage-static-v25.s3.amazonaws.com/css-ie7-main-380-jmin.css.jgz" />
+		<![endif]-->
+
+		<!--[if IE 8]>
+		<link type="text/css" rel="stylesheet" media="screen, print" href="http://instapage-static-v25.s3.amazonaws.com/css-ie8-main-380-jmin.css.jgz" />
+		<![endif]-->
+
+		<!--[if gt IE 8]>
+		<link type="text/css" rel="stylesheet" media="screen, print" href="http://instapage-static-v25.s3.amazonaws.com/css-ie9-main-380-jmin.css.jgz" />
+		<![endif]-->
+
+
+
+		
+		
+<link rel="stylesheet" type="text/css" href="https://instapage-static-v25.s3.amazonaws.com/380-80f4d70558281d2cafbe6816cc4ab150.css.jgz" media="screen">
+<script type="text/javascript" src="https://instapage-static-v25.s3.amazonaws.com/380-1a88ce80da7dcaf5036c0780edb1010d.js.jgz"></script>
+
+
+
+
+		<script type="text/javascript">
+			var _Translate = new Translate();
+		</script>
+
+				
+		
+	<meta name="viewport" content="width=device-width,initial-scale=1"><style>
+.hover-tip .tip[data-tooltip]:after{width:140px;margin: 0 auto 0 -70px; text-align:left}
+
+
+	html, body, div, iframe { margin:0; padding:0; height:100%; }
+
+
+</style><script>
+	var MapAnchors = function( iframe )
+	{
+		$( iframe ).contents().find( 'a' ).click(function()
+		{
+			var newtab = window.open();
+			newtab.location = $( this ).attr( 'href' );
+		});
+	}
+
+	var variants = [ 'A' ];
+	var current_variant = 'A';
+
+	$(document).ready(function()
+	{
+		$('#shuffle_variants').click(function()
+		{
+			var new_variants = [];
+
+			for( var i = 0; i < variants.length; i++ )
+			{
+				if( variants[ i ] != current_variant )
+				{
+					new_variants.push( variants[ i ] );
+				}
+			}
+
+			var variant = new_variants[ Math.floor( Math.random() * new_variants.length ) ];
+			current_variant = variant;
+
+			$( '.variant-name' ).html( current_variant );
+			$( 'iframe#ip_canvas' ).attr( 'src', "http://app.instapage.com//server/show_page_2/87857/6/"+ variant + "//1" );
+
+		});
+
+		$( 'iframe#ip_canvas' ).load(function()
+		{
+			MapAnchors( this );
+		});
+
+	});
+</script></head>
+
+	
+
+
+
+
+
+<body>
+
+<div class="previewpane" style="height:100%">
+			<iframe src="http://app.instapage.com/server/show_page_2/87857/6/A/1/" class="iframe" name="ip_canvas" id="ip_canvas" style="display:block; border:none; width:100%; height:100%;"></iframe>
+	
+</div>
+
+<script>
+	/*
+	function checkvariantposition()
+	{
+		var windowHeight = parseInt($(window).height());
+		var iframe_height = parseInt($("#ip_canvas").contents().find('body')[0].scrollHeight);
+		var diff = parseInt(windowHeight - iframe_height);
+		if ( diff < 0)
+		{
+			$('.shuffle_area').css("right","17px")
+		}
+		else
+		{
+			$('.shuffle_area').css("right","0px")
+		}
+	}
+
+    var $iFrame = $('#ip_canvas');
+
+    $iFrame.load(function(){
+        checkvariantposition();
+    });
+
+	$(window).resize(function(){ checkvariantposition();});
+	*/
+
+
+</script>
+
+
+
+</body></html>
